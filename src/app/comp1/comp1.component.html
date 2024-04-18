@@ -1,0 +1,16 @@
+<p>Simple state hook counter increment</p>
+<p>Counter: {{ count }}</p>
+<button (click)="incrementCount()">Increment Counter</button>
+<br><br>
+<button (click)="sendNotification(this.count)">send counter++ notification from comp1 to comp2</button>
+
+<br><br>
+<p>we do have ngOnInit lifecycle in angular as ngOnInit</p>
+<div *ngIf="data">
+    <h2>Data</h2>
+    <ul>
+      <li>
+        {{ data.title }}
+      </li>
+    </ul>
+  </div>
